@@ -23,7 +23,9 @@ a {
 }
 
 button {
-  background-color: color white
+  background-color: 
+  color: #000000;
+  padding: 8px 16px;
 }
 
 nav {
