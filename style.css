@@ -35,11 +35,16 @@ body {
 }
 
 nav {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
   padding: 10px;
+  background-color: silver;
 }
 
 nav a {
-  margin-right: 12px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 section {
@@ -86,3 +91,16 @@ button {
   border-radius: 6px;
 }
 
+.kartu-wadah {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.kartu {
+  flex: 1 1 150px;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+}
